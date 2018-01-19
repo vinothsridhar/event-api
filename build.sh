@@ -16,4 +16,6 @@ echo "Running ${APP_NAME} | Environment: $ENV "
 echo "------------------------------------------------"
 echo ""
 
-python event_api.py $ENV
+export EVENT_API_ENV=$ENV
+
+python event_api.py

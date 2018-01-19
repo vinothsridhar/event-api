@@ -1,11 +1,12 @@
 import sys
 
+import os
+
 from app import app, create_app
 
-from config import config
+from config import config, ENV_PROD, ENV_VARIABLE_NAME
 
-#ENV = sys.argv[1]
-ENV = "dev"
+ENV = os.getenv(ENV_VARIABLE_NAME, ENV_PROD)
 
 if __name__ == '__main__':
 	create_app(config[ENV])
