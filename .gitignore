@@ -29,4 +29,4 @@ venv
 build
 
 app/secret.py
-error.log
+error.log*
