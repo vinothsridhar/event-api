@@ -22,7 +22,8 @@ Api documentation
 
 #### Create Event Type
 ```
-
+http://localhost:5000/event/type
+METHOD: POST
 ```
 
 ###### Request Body
@@ -38,7 +39,8 @@ Api documentation
 
 #### Get Event Type
 ```
-
+http://localhost:5000/event/type
+METHOD: GET
 ```
 
 ###### Request Body
@@ -53,7 +55,8 @@ Api documentation
 
 #### Create Event
 ```
-
+http://localhost:5000/event
+METHOD: POST
 ```
 
 ###### Request Body
@@ -69,7 +72,8 @@ Api documentation
 
 #### Update Event
 ```
-
+http://localhost:5000/event
+METHOD: PUT
 ```
 
 ###### Request Body
@@ -85,7 +89,8 @@ Api documentation
 
 #### Delete Event
 ```
-
+http://localhost:5000/event
+METHOD: DELETE
 ```
 
 ###### Request Body
@@ -101,7 +106,8 @@ Api documentation
 
 #### Get Event
 ```
-
+http://localhost:5000/event
+METHOD: GET
 ```
 
 ###### Request Body
