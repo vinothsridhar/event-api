@@ -28,5 +28,5 @@ venv
 *.pyc
 build
 
-secret.py
+app/secret.py
 error.log

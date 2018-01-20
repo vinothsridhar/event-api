@@ -1,10 +1,8 @@
-import sys
-
 import os
 
 from app import app, create_app
 
-from config import config, ENV_PROD, ENV_VARIABLE_NAME
+from app.config import config, ENV_PROD, ENV_VARIABLE_NAME
 
 ENV = os.getenv(ENV_VARIABLE_NAME, ENV_PROD)
 

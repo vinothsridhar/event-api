@@ -1,4 +1,3 @@
-import json
 from secret import *
 
 ENV_VARIABLE_NAME = "EVENT_API_ENV"
@@ -13,6 +12,7 @@ class Config(object):
 	"""
 
 	LOG_PATH = 'error.log'
+	JSON_SORT_KEYS = False
 
 
 class DevConfig(Config):
