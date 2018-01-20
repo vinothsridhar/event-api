@@ -29,7 +29,7 @@ else
 fi
 
 #setting up secret.py
-cp app/secret.py.tempate app/secret.py
+cp app/secret.py.template app/secret.py
 
 echo ''
 echo 'PLEASE EDIT CONFIGURATIONS INSIDE app/secret.py'
