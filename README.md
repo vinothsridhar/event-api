@@ -28,12 +28,22 @@ METHOD: POST
 
 ###### Request Body
 ```
-
+{
+    "name": "Meetup Event",
+    "description": "Friends get together"
+}
 ```
 
 ###### Response Body
 ```
-
+{
+    "status": 200,
+    "message": "Event type created successfully",
+    "data": {
+        "description": "Friends get together",
+        "name": "Meetup Event"
+    }
+}
 ```
 
 
@@ -43,14 +53,24 @@ http://localhost:5000/event/type
 METHOD: GET
 ```
 
-###### Request Body
-```
-
-```
-
 ###### Response Body
 ```
-
+{
+    "status": 200,
+    "message": "success",
+    "data": [
+        {
+            "description": "technical event type",
+            "name": "Technical Event",
+            "id": 1
+        },
+        {
+            "description": "Friends get together",
+            "name": "Meetup Event",
+            "id": 2
+        }
+    ]
+}
 ```
 
 #### Create Event
