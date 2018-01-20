@@ -4,11 +4,7 @@ Flask Event Management Rest Api
 ### Installation
 
 ```
-virtualenv venv
-
-pip install -r requirements.txt
-
-Rename secret.py.template inside app directory to secret.py and edit configurations
+bash install.sh
 ```
 
 ### run
