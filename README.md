@@ -1,7 +1,7 @@
 # event-api
 Flask Event Management Rest Api
 
-##Installation
+### Installation
 
 ```
 virtualenv venv
