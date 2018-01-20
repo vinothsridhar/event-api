@@ -199,7 +199,7 @@ def add_event_type():
 
 	db.session.commit()
 
-	return success(data = event_type_data)
+	return success(message = 'Event type created successfully', data = event_type_data)
 
 """
 Get event type list
